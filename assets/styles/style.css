@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans_SemiCondensed-Medium.ttf);
+    font-weight: 800;
+}
+h1 {
+    color: rgb(199, 22, 31);
+    font-family: 'Open Sans';
+    font-weight: 800;
+}
+.title{
+    font-size: 45px;
+    line-height: normal;
+    color: chartreuse;
+}
+.description{
+    color: darkorange;
+    font-style: italic;
+    font-size: 32px;
+}
+.images{
+    width: 300px;
+    height: 200px;
+}
+p{
+    font-family: 'Open Sans';
+    font-weight: 800;
+}
