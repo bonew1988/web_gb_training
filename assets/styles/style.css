@@ -3,26 +3,45 @@
     src: url(../fonts/OpenSans_SemiCondensed-Medium.ttf);
     font-weight: 800;
 }
+
 h1 {
     color: rgb(199, 22, 31);
     font-family: 'Open Sans';
     font-weight: 800;
 }
-.title{
+
+h4 {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+h5 {
+    color: rgb(165, 42, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.title {
     font-size: 45px;
     line-height: normal;
-    color: chartreuse;
+    color: rgb(17, 0, 255);
 }
-.description{
+
+.description {
     color: darkorange;
     font-style: italic;
     font-size: 32px;
 }
-.images{
-    width: 300px;
+
+.images {
+    width: 200px;
     height: 200px;
 }
-p{
+
+p {
     font-family: 'Open Sans';
     font-weight: 800;
 }
