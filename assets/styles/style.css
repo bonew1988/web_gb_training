@@ -1,14 +1,14 @@
-@font-face {
+text@font-face {
     font-family: 'Open Sans', sans-serif;
     src: url(../fonts/OpenSans_SemiCondensed-Medium.ttf);
     font-weight: 800;
 }
 
-h1 {
-    color: rgb(199, 22, 31);
+/* h1 {
+    color: rgb(37, 199, 22);
     font-family: 'Open Sans';
     font-weight: 800;
-}
+} */
 
 h4 {
     color: brown;
@@ -37,11 +37,72 @@ h5 {
 }
 
 .images {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 p {
     font-family: 'Open Sans';
     font-weight: 800;
+}
+
+.desc {
+    color: #020636;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.p-wrapper {
+    display: flex;
+    height: 400px;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+/* h1,
+h2,
+p {
+    margin: 0;
+} */
+
+.box {
+    margin-top: 40px;
+    border: 15px solid #354204;
+}
+
+.head_class {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.bot {
+    width: 200px;
+    height: 30px;
+    outline: 3px solid red;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.bottom {
+    /* width: 100px;
+    height: 30px; */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: blanchedalmond;
 }
