@@ -106,3 +106,7 @@ p {
     border-radius: 10px;
     background-color: blanchedalmond;
 }
+
+a {
+    text-decoration: none;
+}
