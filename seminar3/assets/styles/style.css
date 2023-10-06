@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(./assets/fonts/OpenSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(./assets/fonts/OpenSans-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(./assets/fonts/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(./assets/fonts/OpenSans-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(./assets/fonts/OpenSans-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap'); */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #020A18;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+.header {
+    height: 100px;
+    background-color: #020b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.header-item {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.intro {
+    display: flex;
+    /* gap: 128px; */
+    width: 1146px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.intro-subtitle {
+    color: #3A68B8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.intro_title {
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 40px;
+    width: 604px;
+}
+
+.intro_desk {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-bottom: 50px;
+    width: 558px;
+}
+
+.buttons {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #3A68B8;
+    display: inline-flex;
+    padding: 15px 30px;
+
+}
+
+.intro_wrapper {
+    display: flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 20px;
+}
