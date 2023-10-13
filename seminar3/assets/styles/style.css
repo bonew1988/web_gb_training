@@ -39,6 +39,13 @@ body {
     background-color: #020A18;
 }
 
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1146px;
+
+}
+
 h1,
 p {
     margin: 0;
@@ -67,7 +74,7 @@ p {
 .intro {
     display: flex;
     /* gap: 128px; */
-    width: 1146px;
+    
     margin-right: auto;
     margin-left: auto;
     justify-content: space-between;
@@ -119,4 +126,53 @@ p {
     padding: 15px 30px;
     align-items: flex-start;
     gap: 20px;
+}
+
+.logos {
+    display: flex;
+    margin: 197px auto 0;
+    width: 1146px;
+    justify-content: space-between;
+}
+
+.about {
+    margin: 263px;
+    display: flex;
+
+    width: 1146px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 68px   ;
+
+}
+
+.about_title {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    
+
+}
+
+.about_desk {
+    margin: 30px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    width: 460px;
+    margin-bottom: 50px;
+    
+
+
+}
+
+.sm_text {
+    font-size: 16px;
 }
