@@ -185,3 +185,76 @@ html {
     margin-left: auto;
     padding-top: 97px;
 }
+
+.intro_elem {
+    display: flex;
+    justify-content: center;
+    width: 1170px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 30px;
+    padding: 25px;
+
+
+}
+
+.elem {
+    width: 370px;
+    height: 291px;
+    flex-shrink: 0;
+    background: #FFF;
+    padding: 30px;
+
+
+}
+
+
+.elem_shadow {
+    width: 370px;
+    height: 291px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.elem_title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 17px 0 25px 0;
+
+}
+
+.elem_text {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 310px;
+    height: 42px;
+    flex-shrink: 0;
+    padding: 17px 0 25px 0;
+
+
+}
+
+.elem_link {
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    
+
+
+
+}
