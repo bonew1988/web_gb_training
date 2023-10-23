@@ -46,6 +46,13 @@ html {
     margin-top: 40px;
 }
 
+.three_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    padding-bottom: 100px;
+}
+
 .header_menu {
     display: flex;
     gap: 10px;
@@ -253,8 +260,106 @@ html {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    
+}
+
+.tcard {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+}
+
+.header_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_cards_title {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    padding-top: 92px;
+}
+
+.header_cards_text {
+    color: #666;
+    font-family: 'Gilroy-Regular';
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    width: 682px;
+    padding-top: 19px;
+    padding-bottom: 55px;
+}
+
+.three_big_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    padding-bottom: 100px;
+}
+
+.big_card:hover {
+    cursor: pointer;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.container_card_title_text_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px 50px;
+}
 
 
+.one_big_cards_title {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+}
 
+.one_big_cards_text {
+    color: #AAA;
+    text-align: center;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    width: 310px;
+    padding-top: 22px;
+    padding-bottom: 39px;
+}
+
+.one_big_cards_button_learn_more {
+    color: #FFF;
+    font-family: 'Gilroy-Bold';
+    font-size: 13px;
+    border: none;
+    border-radius: 50px;
+    background-color: #F25822;
+    width: 150px;
+    height: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    cursor: pointer;
+    padding: 0;
+}
+
+.one_big_cards_button_learn_more:hover {
+    border: 1px solid #000;
+    color: #F25822;
+    background-color: #FFF;
+    box-shadow: none;
+}
+
+.one_big_cards_button_learn_more:active {
+    color: #000;
+    background-color: #F25822;
+}
+
+.container_for_text_and_icon_button_learn_more {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-left: 46px;
+    height: 20px;
 }
