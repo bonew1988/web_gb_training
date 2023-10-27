@@ -1,18 +1,4 @@
 @font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto-Medium.ttf");
-    font-style: normal;
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto-ThinItalic.ttf");
-    font-style: italic;
-    font-weight: 100;
-}
-
-@font-face {
     font-family: "Open Sans";
     src: url("../fonts/OpenSans-SemiBold.ttf");
     font-style: normal;
@@ -81,7 +67,7 @@ h1 {
 }
 
 .center {
-    width: 1146px;
+    max-width: 1146px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -290,6 +276,8 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     color: white;
+    max-width: 1146px;
+    margin: 0 auto;
     height: 250px;
     align-content: center;
     gap: 30px;
@@ -399,9 +387,103 @@ h1 {
     .item-big {
         display: none;
     }
-    .footer__container{
-        grid-template-columns: repeat(2 ,1fr);
+
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 768px;
+        margin: 0 auto;
         height: 391px;
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .center {
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .header {
+        height: 64px;
+        column-gap: 20px;
+    }
+
+    .header-item {
+        font-size: 14px;
+    }
+
+    .intro {
+        margin-top: 64px;
+        text-align: center;
+    }
+
+    .intro-upper-title {
+        font-size: 14px;
+    }
+
+    .intro-title {
+        font-size: 28px;
+        max-width: 100%;
+    }
+
+    .intro-description {
+        width: auto;
+        margin-top: 64px;
+    }
+
+    .intro-button-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        margin-top: 128px;
+        align-items: center;
+    }
+
+    .services__item {
+        max-width: 100%;
+    }
+
+    .leftText {
+        text-align: center;
+    }
+
+    .titleText {
+        font-size: 24px;
+    }
+
+    .descText {
+        margin-top: 16px;
+    }
+
+    .buttonWrapperText {
+        margin-top: 16px;
+    }
+
+    .button-sm {
+        font-size: 16px;
+
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        height: 604px;
+         padding: 0 16px;
+    }
+
+    .footer__item_order {
+        order: -1;
+        
+    }
+    .footer__item-content-text{
+        text-align: start;
+    }
+    .item-content-logos{
+        justify-content: center;
     }
 
 
