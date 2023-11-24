@@ -1,0 +1,24 @@
+/* При наведении на любую ссылку цвет текста становится красным */
+.menu__link:hover {
+    color: red;
+}
+
+/* При нажатии на ссылку цвет текста становится зеленым */
+.menu__link:active {
+    color: green;
+}
+
+/* Находим первый элемент списка и добавляем нижнее подчеркивание ссылке */
+.menu__list:first-child .menu__link {
+    text-decoration: underline;
+}
+
+/* Находим последний элемент списка и добавляем ссылке жирность */
+.menu__list:last-child .menu__link {
+    font-weight: bold;
+}
+
+/* Изменяем цвет фона третьей ссылки на оранжевый */
+.menu__list:nth-child(3){
+    background-color: orange;
+}
